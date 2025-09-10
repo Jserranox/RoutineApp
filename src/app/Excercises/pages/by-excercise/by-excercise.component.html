@@ -1,0 +1,8 @@
+
+@if ( excerciseResource.isLoading() ) {
+  <span class="loading loading-spinner loading-xl"></span>
+}
+
+@if ( excerciseResource.hasValue() ) {
+  <excercise-info [excercise]="excerciseResource.value()" />
+}

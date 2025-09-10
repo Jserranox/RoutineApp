@@ -1,0 +1,28 @@
+<div class="drawer">
+  <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+  <div class="drawer-content flex flex-col">
+
+    <!--** Navbar -->
+
+    <navbar-component [items]="navbarItems()" />
+
+  </div>
+  <div class="drawer-side">
+    <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
+    <ul class="menu bg-base-200 min-h-full p-4">
+      @for (item of navbarItems(); track $index) {
+          <li>
+            <a
+            [routerLink]="item.route"
+            >
+              <i
+              [class]="item.icon"
+              >
+            </i>
+            {{ item.name}}
+            </a>
+          </li>
+      }
+    </ul>
+  </div>
+</div>

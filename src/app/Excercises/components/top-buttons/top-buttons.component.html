@@ -1,0 +1,13 @@
+
+
+<div class="flex justify-center my-5">
+  @for (item of buttons(); track $index) {
+    <button
+      (click)="value.emit(item.query)"
+      class="btn btn-outline btn-info md:btn-wide mr-5"
+      >
+      {{ item.name }}
+    </button>
+  }
+</div>
+

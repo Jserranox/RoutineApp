@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Juan Serrano",
+      "password": "1234"
+    }
+  ],
+    "tren_superior": [
+        {
+          "id": "1",
+          "name": "curl bicep",
+          "src_name": "curl_bicep",
+          "description": "Se realiza con mancuernas o barra, flexionando los codos para elevar el peso hacia los hombros.",
+          "muscles": "Bíceps braquial, braquial anterior y braquiorradial"
+        },
+        {
+          "id": "2",
+          "name": "dominadas",
+          "src_name": "dominadas_espalda",
+          "description": "Consiste en elevar el cuerpo colgado de una barra, llevando la barbilla por encima de ella.",
+          "muscles": "Dorsal ancho, bíceps, trapecio, romboides y deltoides posteriores"
+        },
+        {
+          "id": "3",
+          "name": "extensiones de tricep",
+          "src_name": "extensiones_tricep",
+          "description": "Puede hacerse con polea, mancuernas o barra, extendiendo los codos para empujar el peso hacia abajo o atrás",
+          "muscles": "Tríceps braquial, cabeza larga, medial y lateral"
+        },
+        {
+          "id": "4",
+          "name": "flexiones de pecho",
+          "src_name": "flexiones_pecho",
+          "description": "Apoyado en el suelo con manos y pies, se baja el torso flexionando codos y luego se empuja hacia arriba.",
+          "muscles": "Pectoral mayor, tríceps y deltoides anteriores."
+        },
+        {
+          "id": "5",
+          "name": "jalon al pecho",
+          "src_name": "jalon_pecho",
+          "description": "En máquina de polea, se tira de una barra hacia el pecho desde arriba.",
+          "muscles": "Dorsal ancho, bíceps, deltoides posteriores, trapecio y romboides."
+        },
+        {
+          "id": "6",
+          "name": "fondos en paralelas",
+          "src_name": "paralelas_fondos",
+          "description": "Con brazos apoyados en barras paralelas, se baja el torso flexionando codos y luego se empuja hacia arriba.",
+          "muscles": "Tríceps, pectoral inferior y deltoides anteriores"
+        },
+        {
+          "id": "7",
+          "name": "press banca",
+          "src_name": "press_banca_2",
+          "description": "Acostado en banco plano, se empuja la barra o mancuernas desde el pecho hacia arriba.",
+          "muscles": "Pectoral mayor, tríceps, deltoides anteriores"
+        },
+        {
+          "id": "8",
+          "name": "press inclinado",
+          "src_name": "press_banca_inclinado",
+          "description": "Similar al press plano, pero en banco inclinado (30°–45°).",
+          "muscles": "Pectoral mayor (porción clavicular/superior), deltoides anteriores, tríceps."
+        }
+      ],
+      "tren_inferior": [
+        {
+          "id": "1",
+          "name": "curl femoral",
+          "src_name": "curl_femoral",
+          "description": "Ejercicio en máquina donde se flexionan las rodillas llevando los talones hacia los glúteos.",
+          "muscles": "Isquiotibiales"
+        },
+        {
+          "id": "2",
+          "name": "extensiones de cuadricep",
+          "src_name": "extensor_cuaricep_4",
+          "description": "En máquina, se extienden las piernas desde la rodilla para levantar el peso.",
+          "muscles": "Cuádriceps"
+        },
+        {
+          "id": "3",
+          "name": "peso muerto",
+          "src_name": "peso_muerto",
+          "description": "Con barra en el suelo, se levanta el peso manteniendo la espalda recta hasta quedar de pie",
+          "muscles": "Glúteos, isquiotibiales, trapecios, dorsales y antebrazos"
+        }
+      ]
+}

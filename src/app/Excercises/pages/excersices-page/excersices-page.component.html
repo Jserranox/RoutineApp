@@ -1,0 +1,12 @@
+<div class="grid grid-cols-1">
+
+  <top-buttons
+  (value)="query.set($event)"
+  />
+  <div class="flex justify-center">
+    <excercises-grid
+    [excercises]="excerciseResource.value() ?? []"
+    />
+  </div>
+
+</div>

@@ -1,0 +1,55 @@
+<section class="my-10 mx-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+  <div class="col-span-3">
+
+    <h1 class="text-4xl font-bold text-info"> {{ excercise().name | titlecase}}</h1>
+
+  </div>
+
+  <div class="col-span-3 md:col-span-1">
+    <div class="stats stats-vertical shadow">
+      <div class="stat">
+        <div class="stat-title text-2xl text-success">Descripcion</div>
+        <div >{{ excercise().description }}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-span-3 md:col-span-1">
+    <div class="stats stats-vertical shadow">
+      <div class="stat">
+        <div class="stat-title text-2xl text-success">Musculos Trabajados</div>
+        <div  class="mt-2 badge badge-soft badge-info ">{{ excercise().muscles }}</div>
+      </div>
+    </div>
+    <div class="stats stats-vertical shadow">
+      <div class="stat">
+        <button
+          routerLink="/excercises"
+          class="btn btn-soft btn-info">
+          Volver
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-span-3 lg:col-span-1">
+    <figure class="diff aspect-16/9" tabindex="0">
+      <div class="diff-item-1" role="img" tabindex="0">
+        <img
+        src="assets/{{ excercise().src_name }}.png"
+        [alt]="excercise().name" />
+     </div>
+    <div class="diff-item-2" role="img">
+      <img
+        class="blur opacity-75"
+        src="assets/{{ excercise().src_name }}.png"
+        [alt]="excercise().name" />
+    </div>
+      <div class="diff-resizer"></div>
+    </figure>
+  </div>
+
+
+
+</section>
