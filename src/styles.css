@@ -3,3 +3,22 @@
 @plugin "daisyui" {
   themes: caramellatte --default, sunset --prefersdark, cupcake;
 };
+
+.custom-calendar-event {
+  background-color: #4f46e5 !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  border: none !important;
+  font-weight: bold;
+  padding: 2px 8px;
+  width: auto;
+  height: 45px;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  font-size: clamp(0.75rem, 2vw, 1.1rem);
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
